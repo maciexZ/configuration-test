@@ -6,5 +6,6 @@ configMapGenerator:
     files:
     - 1.xml
     - 2.html
+    - 3.json
     options:
       disableNameSuffixHash: true  # Disable the suffix hash
