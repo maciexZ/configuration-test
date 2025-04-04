@@ -1,7 +1,7 @@
 # kustomization.yaml
 configMapGenerator:
   - name: test-configmap-dev
-    namespace: test-cs3
+    namespace: test-qa
     behavior: create
     files:
     - 1.xml
