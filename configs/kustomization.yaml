@@ -2,7 +2,7 @@
 configMapGenerator:
   - name: test-configmap
     namespace: test-cs3
-    behavior: merge
+    behavior: replace
     files:
     - 1.xml
     - 2.html
