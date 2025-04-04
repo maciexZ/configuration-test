@@ -1,6 +1,6 @@
 # kustomization.yaml
 configMapGenerator:
-  - name: test-configmap
+  - name: test-configmap-dev
     namespace: test-cs3
     behavior: create
     files:
