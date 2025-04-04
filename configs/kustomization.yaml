@@ -1,6 +1,6 @@
 # kustomization.yaml
 configMapGenerator:
-  - name: test-configmap-dev
+  - name: test-configmap-qa
     namespace: test-qa
     behavior: create
     files:
