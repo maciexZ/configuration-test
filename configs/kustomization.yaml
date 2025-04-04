@@ -1,0 +1,8 @@
+# kustomization.yaml
+configMapGenerator:
+  - name: test-cs3
+    namespace: test-cs3
+    behavior: create
+    files:
+    - 1.xml
+    - 2.html
